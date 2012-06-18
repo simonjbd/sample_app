@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.5'
+gem 'bootstrap-sass'
 gem 'execjs'
 gem 'therubyracer'
 # Bundle edge Rails instead:
@@ -24,6 +25,8 @@ end
 
 group :test do
 	gem 'capybara'
+	gem 'guard-spork'
+	gem 'spork'
 end
 
 group :production do
